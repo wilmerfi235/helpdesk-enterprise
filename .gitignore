@@ -1,0 +1,40 @@
+## Visual Studio / IDE
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Compilación y Resultados (Binarios)
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+
+## NuGet Packages (Si utilizas la carpeta packages local típica de .NET Framework)
+packages/
+*.nupkg
+*.nupkg.metadata
+
+## Pruebas Unitarias y Cobertura de Código
+[Tt]est[Rr]esults/
+*.trx
+*.coverage
+*.coveragexml
+.testsettings
+
+## Archivos del sistema operativo
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS / Linux
+.DS_Store
+.AppleDouble
+.LSOverride
+*~
+.swp
