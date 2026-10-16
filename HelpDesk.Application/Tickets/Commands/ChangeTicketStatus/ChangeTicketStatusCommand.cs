@@ -22,4 +22,4 @@ public enum TicketStatusAction
 /// <param name="TicketId"></param>
 /// <param name="Action"></param>
 
-public record ChangeTicketStatusCommand(int TicketId, ChangeTicketStatusCommand Action);
+public record ChangeTicketStatusCommand(int TicketId, TicketStatusAction Action);
