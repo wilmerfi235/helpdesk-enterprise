@@ -25,16 +25,16 @@ public class ChangeTicketStatusCommandHandler
 
         switch (command.Action)
         {
-            case ChangeTicketStatusCommand.StartProgress:
+            case TicketStatusAction.StartProgress:
                 ticket.StartProgress();
                 break;
-            case ChangeTicketStatusCommand.Resolve:
+            case TicketStatusAction.Resolve:
                 ticket.Resolve();
                 break;
-            case ChangeTicketStatusCommand.Close:
+            case TicketStatusAction.Close:
                 ticket.Close();
                 break;
-            case ChangeTicketStatusCommand.Reopen:
+            case TicketStatusAction.Reopen:
                 ticket.Reopen();
                 break;
             default:
